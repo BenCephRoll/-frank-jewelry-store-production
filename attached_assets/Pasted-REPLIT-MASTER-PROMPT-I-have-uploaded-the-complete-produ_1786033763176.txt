@@ -1,0 +1,117 @@
+REPLIT MASTER PROMPT
+
+I have uploaded the complete production-ready source code of my website project as a ZIP file.
+
+IMPORTANT
+
+This project has already been built and professionally reviewed.
+
+I do NOT want you to redesign it, regenerate it, simplify it, or replace any existing UI.
+
+Your job is to act as a Senior Full-Stack Engineer preparing this project for deployment.
+
+Phase 1 – Import & Analysis
+
+* Import the project correctly.
+* Detect the framework, libraries, package manager and project structure.
+* Understand the codebase before making any changes.
+* Explain your understanding of the project.
+
+Phase 2 – Environment Setup
+
+* Install every required dependency.
+* Configure the development environment.
+* Resolve dependency conflicts if any exist.
+* Ensure the project starts successfully.
+
+Phase 3 – Verification
+
+Verify:
+
+* Development server starts correctly.
+* No console errors.
+* No runtime errors.
+* No TypeScript errors.
+* No build errors.
+* No broken imports.
+* No missing assets.
+* No missing environment variables.
+
+If any issue exists, fix it while preserving the current UI and functionality.
+
+Phase 4 – Production Build
+
+Run a complete production build.
+
+Verify:
+
+* Production build succeeds.
+* All routes compile.
+* Images load correctly.
+* CSS loads correctly.
+* JavaScript bundles correctly.
+* No warnings that could affect production.
+
+Fix any issues required to achieve a successful production build.
+
+Phase 5 – Code Quality
+
+Do NOT redesign the website.
+
+Do NOT replace components.
+
+Do NOT regenerate pages.
+
+Only improve:
+
+* stability
+* reliability
+* maintainability
+* production readiness
+
+Preserve:
+
+* design
+* animations
+* responsiveness
+* branding
+* user experience
+
+Phase 6 – GitHub
+
+Connect this project to my GitHub repository.
+
+If the repository already exists:
+
+* Pull the latest changes if necessary.
+* Resolve merge conflicts safely.
+* Commit all production-ready changes.
+* Push the latest version to GitHub.
+
+If no repository is connected:
+
+* Help me connect my GitHub account.
+* Create or use the repository I specify.
+* Push the project.
+
+Phase 7 – Final Validation
+
+Before finishing:
+
+Verify one final time that:
+
+* the application runs successfully;
+* the production build succeeds;
+* the GitHub repository contains the latest version;
+* no functionality has been lost;
+* the website looks exactly like before unless a bug required a change.
+
+Final Report
+
+At the end, provide:
+
+1. Every issue you found.
+2. Every fix you made.
+3. Any remaining recommendations.
+4. Confirmation that the project is production-ready.
+5. Confirmation that GitHub contains the latest ver

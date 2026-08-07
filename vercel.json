@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "buildCommand": "pnpm --filter @workspace/frank-jewelry-store run typecheck && pnpm --filter @workspace/frank-jewelry-store run build",
+  "outputDirectory": "artifacts/frank-jewelry-store/.vercel/output",
+  "framework": null
+}

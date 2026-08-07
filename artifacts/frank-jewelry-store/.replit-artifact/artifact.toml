@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Frank Jewelry Store"
+description = "A production-ready jewelry store website for Frank Jewelry Store, featuring gold, diamond, and steel jewelry. Built with TanStack Start (SSR), Tailwind v4, and a full product catalog with WhatsApp ordering. Includes rich media (photos and videos), animated components, and multiple route pages."
+version = "1.0.0"
+id = "artifacts/frank-jewelry-store"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18577
+
+[services.development]
+run = "pnpm --filter @workspace/frank-jewelry-store run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/frank-jewelry-store", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/frank-jewelry-store/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18577"
+BASE_PATH = "/"
