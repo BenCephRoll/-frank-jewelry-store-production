@@ -1,0 +1,123 @@
+import { n as require_jsx_runtime } from "../_libs/react+tanstack__react-query.mjs";
+import { S as whatsappLink, h as galleryMedia } from "./router-DzH1degG.mjs";
+import { t as MediaFrame } from "./MediaFrame-Cu7-zJnF.mjs";
+import { t as Reveal } from "./Reveal-BaPs-T0a.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/testimonials-_fLTEFU1.js
+var import_jsx_runtime = require_jsx_runtime();
+var testimonials = [
+	{
+		quote: "The cuban chain is heavier and cleaner than I expected from photos. It sits perfectly and hasn't lost a shade of colour.",
+		name: "Daniel O.",
+		detail: "Gold Cuban Chain"
+	},
+	{
+		quote: "I asked for something for my wife's birthday and got honest advice rather than a sales pitch. The butterfly set was exactly right.",
+		name: "Amaka E.",
+		detail: "Diamond Butterfly Set"
+	},
+	{
+		quote: "Ordered from abroad and was nervous about it. They confirmed everything on WhatsApp first and it arrived well packed.",
+		name: "Kelvin A.",
+		detail: "Worldwide Delivery"
+	},
+	{
+		quote: "Bought two watches and a bangle. Finish is excellent for the price and they still look new months later.",
+		name: "Tunde B.",
+		detail: "Two-Tone Wristwatch"
+	},
+	{
+		quote: "What I appreciate most is that they tell you what a piece actually is. No pretending steel is gold.",
+		name: "Grace N.",
+		detail: "Steel Pendant Necklace"
+	},
+	{
+		quote: "Fast replies, clear pricing, and the layered chains photograph exactly as they look in person.",
+		name: "Ibrahim S.",
+		detail: "Layered Pendant Chains"
+	}
+];
+function Testimonials() {
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: "mx-auto max-w-7xl px-5 py-16 lg:px-10 lg:py-24",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Reveal, { children: [
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "eyebrow",
+					children: "Testimonials"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h1", {
+					className: "mt-5 max-w-2xl font-display text-5xl sm:text-6xl",
+					children: "Words from the people wearing it"
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+					className: "mt-5 max-w-xl text-sm leading-relaxed text-muted-foreground",
+					children: "The strongest thing we own is our reputation. These are the clients who built it."
+				}),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "rule-gold mt-8 w-24" }),
+				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
+					className: "mt-6 max-w-xl border border-gold/20 bg-onyx px-5 py-4 text-xs leading-relaxed text-muted-foreground",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+						className: "text-gold",
+						children: "Sample content:"
+					}), " the quotes below are illustrative placeholders showing how client reviews will appear on this page. Replace them with real, verifiable testimonials before launch."]
+				})
+			] }),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsx)("ul", {
+				className: "mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-3",
+				children: testimonials.map((item, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Reveal, {
+					as: "li",
+					delay: index % 3 * 90,
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("figure", {
+						className: "glass-panel flex h-full flex-col justify-between p-7",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+							"aria-hidden": true,
+							className: "font-display text-4xl text-gold/70",
+							children: "“"
+						}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("blockquote", {
+							className: "mt-2 text-sm leading-relaxed text-ivory/85",
+							children: item.quote
+						})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("figcaption", {
+							className: "mt-7 border-t border-border/50 pt-5",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "font-display text-xl",
+								children: item.name
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+								className: "mt-1 text-[0.6rem] uppercase tracking-[0.22em] text-gold/80",
+								children: item.detail
+							})]
+						})]
+					})
+				}, item.name))
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("section", {
+				className: "mt-24 grid gap-10 border-t border-border/50 pt-16 lg:grid-cols-2 lg:items-center lg:gap-16",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(Reveal, { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
+						className: "font-display text-4xl sm:text-5xl",
+						children: "Your piece could be the next one talked about"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+						className: "mt-5 max-w-lg text-sm leading-relaxed text-muted-foreground",
+						children: "Tell us what you're looking for and we'll shortlist options with real photos of what's in stock today."
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
+						href: whatsappLink("Hello, I read your testimonials and I'd like to order."),
+						target: "_blank",
+						rel: "noreferrer",
+						className: "mt-9 inline-flex min-h-13 items-center bg-gold px-9 text-[0.65rem] uppercase tracking-[0.24em] text-primary-foreground transition-opacity duration-500 hover:opacity-90",
+						children: "Message the Store"
+					})
+				] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Reveal, {
+					delay: 120,
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(MediaFrame, {
+						media: galleryMedia[1],
+						ratio: "4 / 5",
+						className: "border border-border/60"
+					})
+				})]
+			})
+		]
+	});
+}
+//#endregion
+export { Testimonials as component };

@@ -20,12 +20,7 @@ export default defineConfig({
   // Worker bundle that Vercel doesn't know how to serve, producing 404s or a
   // "No Output Directory" error even when the build itself succeeds.
   nitro: {
-    preset: "vercel",
-    output: {
-      dir: ".vercel/output",
-      serverDir: ".vercel/output/functions/__server.func",
-      publicDir: ".vercel/output/static",
-    },
+    preset: "netlify",
   },
   vite: {
     // Override sandbox/port detection so Replit's assigned PORT is used.
