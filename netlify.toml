@@ -1,9 +1,4 @@
 [build]
   command = "pnpm --filter @workspace/frank-jewelry-store run typecheck && pnpm --filter @workspace/frank-jewelry-store run build"
-  publish = "artifacts/frank-jewelry-store/.vercel/output/static"
-  functions = "artifacts/frank-jewelry-store/.vercel/output/functions"
-
-[[redirects]]
-  from = "/*"
-  to = "/__server"
-  status = 200
+  publish = "artifacts/frank-jewelry-store/dist"
+  functions = "artifacts/frank-jewelry-store/.netlify/functions-internal"
